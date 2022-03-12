@@ -13,9 +13,11 @@
             
             
         </Frame>
-        
-        
-        
+
+        <Label x:Name="scanResultText" />
+
+        <zxing:ZXingScannerView IsScanning="True" OnScanResult="ZXingScannerView_OnScanResult"/>
+
     </StackLayout>
 
 </ContentPage>
